@@ -1,0 +1,1 @@
+Sitemap: /geekyll-starter-blog/sitemap.xml

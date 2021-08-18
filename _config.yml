@@ -1,0 +1,29 @@
+title: Red Libre
+markdown: kramdown
+url: ""
+baseurl: "/red-libre"
+
+# for atom feed
+author:
+  name: Sharad Raj
+  email: aguirrej513@gmail.com
+  image: "https://pbs.twimg.com/profile_images/1015760533067313152/A-q_41zS_400x400.jpg"
+  bio: Percepciones simbólicas para una conciencia de red
+  github: "Iulianus"
+
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "post"
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"
+      permalink: /posts/:categories/:year/:month/:day/:title/
